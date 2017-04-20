@@ -7,8 +7,6 @@
 - Jasleen Jabbal (jkjabbal)
 - Sudhanshi Jain (sjain8)
 
-## Comparative Study of Docker Monitoring Tools
-
 ## Why we need monitoring
 
 As Cloud and DevOps become more prominent, we go for large scale deployments. In such scenarios, it is imperative that we would monitor the health of our resources. This can be done using various tools. For the purpose of this deliverable, we study three Docker monitoring tools:
@@ -30,13 +28,13 @@ display a live stream of the following container(s) resource usage statistics:
 
 By default, this command display statistics for all the running containers. A list of container names or ids can be specified, separated by a space, to restrict the stream to a subset of running containers.
 
-## Docker Remote API
+### Docker Remote API
 
 Docker daemon provides a Remote REST API. This API is used by the Client to communicate with the engine. This API can be also be invoked by by other tools, such as curl or Chrome Postman REST Client.
 
 `curl https://localhost:2376/containers/42d1414883af/stats --cert $DOCKER_CERT_PATH/cert.p12 --pass mypass --key $DOCKER_CERT_PATH/key.pem --cacert $DOCKER_CERT_PATH/ca.pem`
 
-## cAdvisor
+### cAdvisor
 
 cAdvisor or Container Advisor provide host and container metrics. It is a running daemon that collects, aggregates, processes, and exports information about running containers.
 
