@@ -2,10 +2,10 @@
 
 ## Developers
 
-- Abhinav Ashish(abhina)
-- Alok Kucheria(akucher)
-- Jasleen Jabbal(jkjabbal)
-- Sudhanshi Jain(sjain8)
+- Abhinav Ashish (abhina)
+- Alok Kucheria (akucher)
+- Jasleen Jabbal (jkjabbal)
+- Sudhanshi Jain (sjain8)
 
 ## Comparative Study of Docker Monitoring Tools
 
