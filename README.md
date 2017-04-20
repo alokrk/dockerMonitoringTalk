@@ -19,9 +19,7 @@ As Cloud and DevOps become more prominent, we go for large scale deployments. In
 
 ### Docker Stats
 
-```
-	docker stats
-	```  display a live stream of the following container(s) resource usage statistics:
+docker stats display a live stream of the following container(s) resource usage statistics:
 
 - CPU % usage
 - Memory usage, limit, % usage
@@ -36,9 +34,6 @@ Couchbase container can be seen as:
 	```
 
 where couchbase is the container name.
-
---no-stream option can be specified where only the first snapshot is displayed and results are not streamed. The Docker Logentries Container can be used to collect
-this data.
 
 ## Docker Remote API
 
