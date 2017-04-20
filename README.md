@@ -19,7 +19,9 @@ As Cloud and DevOps become more prominent, we go for large scale deployments. In
 
 ### Docker Stats
 
-docker stats display a live stream of the following container(s) resource usage statistics:
+`docker stats`
+
+display a live stream of the following container(s) resource usage statistics:
 
 - CPU % usage
 - Memory usage, limit, % usage
