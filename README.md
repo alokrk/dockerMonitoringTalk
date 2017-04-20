@@ -36,15 +36,11 @@ Docker daemon provides a Remote REST API. This API is used by the Client to comm
 
 `curl https://localhost:2376/containers/42d1414883af/stats --cert $DOCKER_CERT_PATH/cert.p12 --pass mypass --key $DOCKER_CERT_PATH/key.pem --cacert $DOCKER_CERT_PATH/ca.pem`
 
-Screenshot
-
 ## cAdvisor
 
 cAdvisor or Container Advisor provide host and container metrics. It is a running daemon that collects, aggregates, processes, and exports information about running containers.
 
 `docker run -d --name=cadvisor -p 8080:8080 --volume=/var/run:/var/run:rw --volume=/sys:/sys:ro --volume=/var/lib/docker/:/var/lib/docker:ro google/cadvisor:latest`
-
-Screenshot
 
 ### Screencast Link
 
