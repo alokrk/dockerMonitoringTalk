@@ -8,3 +8,9 @@
 - Sudhanshi Jain(sjain8)
 
 ## Comparative Study of Docker Monitoring Tools
+
+### Docker Stats
+
+### DOcker Remote API
+
+### cAdvisor
